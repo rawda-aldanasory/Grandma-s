@@ -1,0 +1,108 @@
+/* === Footer Section Styles === */
+#footer-section {
+  background-color: #4a4031; /* Dark background for footer */
+  padding: 2rem; /* Padding around the footer content */
+  display: flex; /* Flexbox for layout */
+  justify-content: center; /* Center align content */
+  align-items: center; /* Align items vertically */
+  flex-direction: column; /* Stack content vertically */
+}
+
+/* === Footer Heading === */
+#footer-section h1 {
+  color: #fff; /* White text color for the heading */
+  margin-bottom: 1.5rem; /* Space below the heading */
+  text-align: center; /* Center align the heading */
+}
+
+/* === Footer Links Section: 4 Columns === */
+#footer-section .footer-links {
+  display: flex; /* Use flexbox to display columns side by side */
+  justify-content: space-between; /* Distribute columns evenly */
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Limit max width of the footer */
+  margin-bottom: 2rem; /* Margin below the links section */
+}
+
+/* === Footer Column Styles === */
+#footer-section .footer-column {
+  text-align: left; /* Left-align text in columns */
+}
+
+#footer-section .footer-column h5 {
+  color: #fff; /* White color for column titles */
+  margin-bottom: 1rem; /* Space below column titles */
+}
+
+/* === Links in Footer Columns === */
+#footer-section .footer-column a {
+  display: block; /* Display links as block elements */
+  color: #fff; /* White text color */
+  margin-bottom: 0.5rem; /* Space between links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* === Hover Effect for Footer Links === */
+#footer-section .footer-column a:hover {
+  color: #f5c85a; /* Change color on hover */
+}
+
+/* === Email Subscription Form Styles === */
+#footer-section input[type="email"] {
+  padding: 0.5rem; /* Padding inside email input */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width */
+  margin-bottom: 10px; /* Space below the input */
+}
+
+/* === Subscribe Button Styles === */
+#footer-section .subscribe-btn {
+  padding: 0.5rem 1rem; /* Padding inside the button */
+  background-color: #f5c85a; /* Background color for the button */
+  border: none; /* Remove border */
+  color: #4a4031; /* Dark text color for the button */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* === Hover Effect for Subscribe Button === */
+#footer-section .subscribe-btn:hover {
+  background-color: #d4a33f; /* Darker background on hover */
+}
+
+/* === Social Media Links Section === */
+#footer-section .social-links {
+  margin-top: 2rem; /* Margin above the social links */
+}
+
+/* === Social Media Icon Styles === */
+#footer-section .social-icon {
+  display: flex; /* Flexbox for social media icons */
+  align-items: center; /* Align icons vertically */
+  justify-content: center; /* Center align icons */
+  color: transparent; /* Initially transparent */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease-in-out; /* Smooth transition on hover */
+  border: solid 3px #fff; /* White border around icons */
+  border-radius: 50%; /* Circular border */
+  margin: 0 10px; /* Margin between icons */
+  width: 30px; /* Icon width */
+  height: 30px; /* Icon height */
+  font-size: 10px; /* Smaller icon size */
+}
+
+/* === Hover Effect for Social Media Icons === */
+#footer-section .social-icon:hover {
+  border: solid 3px #333; /* Dark border on hover */
+}
+
+/* === Footer Copyright Section === */
+#footer-section .footer-copyright {
+  text-align: center; /* Center align the copyright text */
+  color: #fff; /* White color for copyright text */
+  font-size: 0.9rem; /* Smaller text size */
+  margin-top: 1.5rem; /* Space above the copyright text */
+}

@@ -1,0 +1,115 @@
+/* Base styles for Best Review section */
+.best-review {
+    padding: 20px 0;
+    align-content: center;
+}
+
+.best-review .container {
+    margin-top: -130px; /* Only for large screens */
+    padding-top: 0;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 5;
+}
+
+.best-review .container h3 {
+    text-align: center;
+    letter-spacing: 1.25px;
+    font-size: 2rem;
+    color: #4a4031;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.best-review-slider {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center reviews horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.review-item {
+    padding: 20px; /* Padding around each review */
+}
+
+.stars .fa-star {
+    color: gold; /* Gold color for checked stars */
+}
+
+.review-text {
+    font-size: 1rem; /* Font size for review text */
+    color: #333; /* Dark color for text */
+}
+
+.reviewer-img {
+    border: 2px solid #4a4031; /* Border color matching theme */
+}
+
+/* Custom styles for horizontal rules */
+.hr1, .hr2 {
+    opacity: 1;
+    height: 2px;
+    width: 60px;
+    margin-bottom: 10px;
+    rotate: 90deg;
+    margin: 0 auto;
+    background: #4a4031;
+}
+
+/* Hide Owl Carousel dots */
+.owl-dots {
+    display: none !important; /* Hide dots */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .best-review .container {
+        margin-top: -100px; /* Adjust margin for tablet */
+    }
+
+    .review-item {
+        padding: 15px; /* Adjust padding for tablet */
+    }
+
+    .review-text {
+        font-size: 1rem; /* Keep text size for tablet */
+    }
+}
+
+@media (max-width: 980px) {
+    .best-review .container {
+        margin-top: -50px; /* Less negative margin for smaller devices */
+        padding-bottom: 40px; /* Add padding for balance */
+    }
+
+    .review-item {
+        padding: 12px; /* Reduce padding for mobile */
+    }
+
+    .review-text {
+        font-size: 0.9rem; /* Slightly smaller text for mobile */
+    }
+
+    .hr1, .hr2 {
+        width: 50px; /* Adjust line width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .best-review .container {
+        margin-top: 0; /* Remove negative margin on very small devices */
+        padding-bottom: 30px; /* Add padding for balance */
+    }
+
+    .review-item {
+        padding: 10px; /* Further adjust padding for small mobile devices */
+    }
+
+    .review-text {
+        font-size: 0.8rem; /* Smaller text for very small devices */
+    }
+
+    .hr1, .hr2 {
+        width: 40px; /* Adjust line width for very small devices */
+    }
+}

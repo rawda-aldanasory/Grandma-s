@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <body>
-<section class="best-review" data-aos="fade-up">
+<section class="best-review" data-aos="fade-up" style="min-height: 60vh;">
     <div class="container" data-aos="fade-up">
         <div class="flex flex-col gap-2" data-aos="fade-up">
             <hr class="hr1" data-aos="fade-right">

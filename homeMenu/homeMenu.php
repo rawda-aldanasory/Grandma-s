@@ -10,8 +10,10 @@
 <link rel="stylesheet" href="menuStyles.css">
 
 <!-- Menu Section -->
+ <section style="min-height: 100vh;">
 <div class="container mt-5" id="homeMenu">
   <h1 class="menuh1 recoleta-font">Top Picks</h1>
+  <hr class="custom-hr">
   <div class="row justify-content-center align-items-center">
       <!-- dish cards -->
       <div class="col-md-4 col-sm-6 col-12 mb-4" data-aos="fade-up">
@@ -61,6 +63,7 @@
       </div>
   </div>
 </div>
+</section>
 
   <!-- AOS JS (Animate on Scroll) -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -1,38 +1,42 @@
 body {
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .about-us-section {
-    background-color: #f9f3ef;
-    padding: 3rem 1.5rem;
-    border-radius: 10px;
-  }
-  
-  .about-heading {
-    font-weight: 700;
-    color: #5f4b3a;
-    margin-bottom: 1rem;
-  }
-  
-  .about-text {
-    color: #333;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-  }
-  
-  .order-now-button {
-    background-color: #5f4b3a;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    border-radius: 5px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .order-now-button:hover {
-    background-color: #3e2c1e;
-  }
-  
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-us-section {
+  background-color: #fff;
+  padding: 3rem 3rem;
+  border-radius: 10px;
+}
+
+.about-heading {
+  font-weight: 700;
+  color: #5f4b3a;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.order-now-button {
+  background-color: #5f4b3a;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-now-button:hover {
+  background-color: #3e2c1e;
+}
+
+.about-us-section img {
+  height: 300px; /* Custom height for image */
+  object-fit: cover; /* Ensures the image fits inside the box without distorting */
+}

@@ -7,7 +7,7 @@
 <!-- Animate on Scroll CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
 
-<!-- Font Awesome CDN (to be included in your <head> section) -->
+<!-- Font Awesome CDN -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 <!-- AOS JS (Animate on Scroll) -->
@@ -66,7 +66,7 @@
                 <h5>Subscribe</h5>
                 <form action="#" method="post" class="d-flex flex-column">
                     <input type="email" placeholder="Enter your email" required class="form-control mb-2" />
-                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                    <button type="submit" class="subscribe-btn btn btn-primary">Subscribe</button>
                 </form>
             </div>
         </div>

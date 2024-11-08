@@ -179,3 +179,19 @@ button {
  button:hover .button-text {
   color: #fff;
  }
+
+ .custom-hr {
+  width: 40px;
+  background-color: #000;
+  margin: 0 auto 20px;
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+.custom-hr:hover {
+  width: 60px;
+}
+
+.menuh1:hover + .custom-hr {
+  width: 60px;
+}
